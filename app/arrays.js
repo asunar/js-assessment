@@ -54,7 +54,7 @@ define(function() {
       var count = 0;
 
       var incrementCountIfElmentEqualsItem = function(element){
-                                                if(element === 1) {count++;} 
+                                                if(element === item) {count++;} 
                                              };
       arr.forEach(incrementCountIfElmentEqualsItem);
 
