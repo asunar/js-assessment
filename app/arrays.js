@@ -24,7 +24,7 @@ define(function() {
         return element === item;
       });
       
-      for(i = 0; i < itemsToRemove.length; i++){
+      for(var i = 0; i < itemsToRemove.length; i++){
         arr.splice(arr.indexOf( itemsToRemove[i]), 1);
       }
 
@@ -85,8 +85,8 @@ define(function() {
     },
 
     square : function(arr) {
-      squared = [];
-      arr.forEach(function(element) {  x.push(element * element); });
+      var squared = [];
+      arr.forEach(function(element) {  squared.push(element * element); });
       return squared;
     },
 
