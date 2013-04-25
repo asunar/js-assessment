@@ -85,9 +85,9 @@ define(function() {
     },
 
     square : function(arr) {
-      x = [];
-      arr.forEach(function(x1) {  x.push(x1 * x1); });
-      return x;
+      squared = [];
+      arr.forEach(function(element) {  x.push(element * element); });
+      return squared;
     },
 
     findAllOccurrences : function(arr, target) {
